@@ -1,0 +1,17 @@
+{
+    "name": "test/test",
+    "description": "Test",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+}
